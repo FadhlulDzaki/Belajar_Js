@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+   <h1>JavaScript Variables</h1>
+   <p>Contoh penggunaan variabel let dalam JavaScript</p>
+   <p id="demo"></p>
+
+   <script>
+       
+        let x = 7;  // Deklarasi variabel x dan memberikan nilai 7
+        let y = 13;  // Deklarasi variabel y dan memberikan nilai 10
+        y = 20; // apabila variabel y ditambah yang baru maka variabel terakhirlah yang akan diambil
+        let z = x + y; // Deklarasi variabel z dan menghitung nilai dari penjumlahan x dan y
+
+        alert("The value of z is: " + z); // Menampilkan nilai z dengan menggunakan alert
+
+        document.getElementById("demo").innerHTML = "The value of z is: " + z; // Menampilkan nilai z di dalam elemen HTML dengan id "demo"
+   </script>
+</body>
+</html>
